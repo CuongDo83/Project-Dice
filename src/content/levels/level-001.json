@@ -1,0 +1,105 @@
+{
+  "id": "level_symmetry_005w_002",
+  "version": 1,
+  "mapSize": { "width": 8, "height": 11 },
+  "objective": { "objectiveType": "defeat_all", "targetValue": "all_enemies" },
+  "battlefieldBagSlots": 4,
+  "playerStats": { "hp": 180, "moveMin": 1, "moveMax": 3, "dmgMin": 20, "dmgMax": 40 },
+  "playerStart": { "x": 3, "y": 9 },
+  "waves": [
+    {
+      "id": "wave_001",
+      "enemyPlacements": [
+        { "enemyId": "enemy_slime", "enemyLevel": 1, "position": { "x": 2, "y": 1 } },
+        { "enemyId": "enemy_slime", "enemyLevel": 1, "position": { "x": 5, "y": 1 } },
+        { "enemyId": "enemy_wind", "enemyLevel": 1, "position": { "x": 0, "y": 3 } },
+        { "enemyId": "enemy_wind", "enemyLevel": 1, "position": { "x": 7, "y": 3 } }
+      ],
+      "mysteryCells": [
+        { "id": "mystery_101", "x": 1, "y": 8, "rewardPoolId": "default" },
+        { "id": "mystery_102", "x": 6, "y": 8, "rewardPoolId": "default" }
+      ]
+    },
+    {
+      "id": "wave_002",
+      "enemyPlacements": [
+        { "enemyId": "enemy_slime", "enemyLevel": 2, "position": { "x": 2, "y": 1 } },
+        { "enemyId": "enemy_slime", "enemyLevel": 2, "position": { "x": 5, "y": 1 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 2, "position": { "x": 1, "y": 3 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 2, "position": { "x": 6, "y": 3 } }
+      ],
+      "mysteryCells": [
+        { "id": "mystery_201", "x": 2, "y": 6, "rewardPoolId": "default" },
+        { "id": "mystery_202", "x": 5, "y": 6, "rewardPoolId": "default" }
+      ]
+    },
+    {
+      "id": "wave_003",
+      "enemyPlacements": [
+        { "enemyId": "enemy_worm", "enemyLevel": 2, "position": { "x": 2, "y": 2 } },
+        { "enemyId": "enemy_worm", "enemyLevel": 2, "position": { "x": 5, "y": 2 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 3, "position": { "x": 1, "y": 4 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 3, "position": { "x": 6, "y": 4 } }
+      ],
+      "mysteryCells": [
+        { "id": "mystery_301", "x": 3, "y": 6, "rewardPoolId": "default" },
+        { "id": "mystery_302", "x": 4, "y": 6, "rewardPoolId": "default" }
+      ]
+    },
+    {
+      "id": "wave_004",
+      "enemyPlacements": [
+        { "enemyId": "enemy_wind", "enemyLevel": 2, "position": { "x": 0, "y": 2 } },
+        { "enemyId": "enemy_wind", "enemyLevel": 2, "position": { "x": 7, "y": 2 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 3, "position": { "x": 1, "y": 3 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 3, "position": { "x": 6, "y": 3 } },
+        { "enemyId": "enemy_worm", "enemyLevel": 3, "position": { "x": 2, "y": 5 } },
+        { "enemyId": "enemy_worm", "enemyLevel": 3, "position": { "x": 5, "y": 5 } }
+      ],
+      "mysteryCells": [
+        { "id": "mystery_401", "x": 2, "y": 7, "rewardPoolId": "default" },
+        { "id": "mystery_402", "x": 5, "y": 7, "rewardPoolId": "default" }
+      ]
+    },
+    {
+      "id": "wave_005",
+      "enemyPlacements": [
+        { "enemyId": "enemy_worm", "enemyLevel": 3, "position": { "x": 2, "y": 2 } },
+        { "enemyId": "enemy_worm", "enemyLevel": 3, "position": { "x": 5, "y": 2 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 4, "position": { "x": 1, "y": 4 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 4, "position": { "x": 6, "y": 4 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 4, "position": { "x": 2, "y": 6 } },
+        { "enemyId": "enemy_fire", "enemyLevel": 4, "position": { "x": 5, "y": 6 } }
+      ],
+      "mysteryCells": [
+        { "id": "mystery_501", "x": 3, "y": 7, "rewardPoolId": "default" },
+        { "id": "mystery_502", "x": 4, "y": 7, "rewardPoolId": "default" }
+      ]
+    }
+  ],
+  "specialTiles": [],
+  "walkableCells": [
+    { "x": 0, "y": 0 }, { "x": 1, "y": 0 }, { "x": 2, "y": 0 }, { "x": 3, "y": 0 }, { "x": 4, "y": 0 }, { "x": 5, "y": 0 }, { "x": 6, "y": 0 }, { "x": 7, "y": 0 },
+    { "x": 0, "y": 1 }, { "x": 1, "y": 1 }, { "x": 2, "y": 1 }, { "x": 3, "y": 1 }, { "x": 4, "y": 1 }, { "x": 5, "y": 1 }, { "x": 6, "y": 1 }, { "x": 7, "y": 1 },
+    { "x": 0, "y": 2 }, { "x": 2, "y": 2 }, { "x": 3, "y": 2 }, { "x": 4, "y": 2 }, { "x": 5, "y": 2 }, { "x": 7, "y": 2 },
+    { "x": 0, "y": 3 }, { "x": 1, "y": 3 }, { "x": 2, "y": 3 }, { "x": 3, "y": 3 }, { "x": 4, "y": 3 }, { "x": 5, "y": 3 }, { "x": 6, "y": 3 }, { "x": 7, "y": 3 },
+    { "x": 0, "y": 4 }, { "x": 1, "y": 4 }, { "x": 3, "y": 4 }, { "x": 4, "y": 4 }, { "x": 6, "y": 4 }, { "x": 7, "y": 4 },
+    { "x": 0, "y": 5 }, { "x": 1, "y": 5 }, { "x": 2, "y": 5 }, { "x": 3, "y": 5 }, { "x": 4, "y": 5 }, { "x": 5, "y": 5 }, { "x": 6, "y": 5 }, { "x": 7, "y": 5 },
+    { "x": 0, "y": 6 }, { "x": 2, "y": 6 }, { "x": 3, "y": 6 }, { "x": 4, "y": 6 }, { "x": 5, "y": 6 }, { "x": 7, "y": 6 },
+    { "x": 0, "y": 7 }, { "x": 1, "y": 7 }, { "x": 2, "y": 7 }, { "x": 3, "y": 7 }, { "x": 4, "y": 7 }, { "x": 5, "y": 7 }, { "x": 6, "y": 7 }, { "x": 7, "y": 7 },
+    { "x": 0, "y": 8 }, { "x": 1, "y": 8 }, { "x": 3, "y": 8 }, { "x": 4, "y": 8 }, { "x": 6, "y": 8 }, { "x": 7, "y": 8 },
+    { "x": 0, "y": 9 }, { "x": 1, "y": 9 }, { "x": 2, "y": 9 }, { "x": 3, "y": 9 }, { "x": 4, "y": 9 }, { "x": 5, "y": 9 }, { "x": 6, "y": 9 }, { "x": 7, "y": 9 },
+    { "x": 0, "y": 10 }, { "x": 1, "y": 10 }, { "x": 2, "y": 10 }, { "x": 3, "y": 10 }, { "x": 4, "y": 10 }, { "x": 5, "y": 10 }, { "x": 6, "y": 10 }, { "x": 7, "y": 10 }
+  ],
+  "blockedCells": [
+    { "x": 1, "y": 2 }, { "x": 6, "y": 2 },
+    { "x": 2, "y": 4 }, { "x": 5, "y": 4 },
+    { "x": 1, "y": 6 }, { "x": 6, "y": 6 },
+    { "x": 2, "y": 8 }, { "x": 5, "y": 8 }
+  ],
+  "cellAssets": {
+    "walkable": "floor_basic",
+    "blocked": "wall_basic"
+  },
+  "notes": "5-wave standalone medium level. Symmetric blocked obstacles create three readable lanes. Difficulty rises mainly through enemy archetype mix and enemyLevel, while mystery appears from wave 3 onward to keep medium lucky feeling and comeback windows."
+}
